@@ -1,0 +1,15 @@
+{
+  "name": "lilith",
+  "version": "1.0.0",
+  "description": "BOT de uso exclusivo para moderação, wiki e dentre outras funcionalidades da equipe Warian'sForce! e EtheriusCraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Densuki",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "openai": "^3.3.0"
+  }
+}
