@@ -2,10 +2,11 @@
 // IMPORTs
 //====================================================================================================//
 const { Configuration, OpenAIApi } = require('openai');
-const config = require('../config.json');
+//const config = require('../config.json');
+//const config = process.env.openai;
 
 const key = new Configuration({
-    apiKey: config.openai
+    apiKey: process.env.openai
 });
 const openai = new OpenAIApi(key);
 //====================================================================================================//
